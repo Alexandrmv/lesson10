@@ -1,0 +1,41 @@
+.lights {
+  width: 100px;
+  padding: 10px;
+  background-color: #1a2128;
+  &__wrapper{
+    margin: 0 auto;
+  }
+  &__circle {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+
+.lights__switch {
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btnEnabled {
+  background-color: #21bb9a;
+  border-color: #11c541;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
